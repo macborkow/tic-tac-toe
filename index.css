@@ -1,0 +1,30 @@
+#root {
+    width: 30vw;
+    height: 30vw;
+    left: 35%;
+    position: absolute;
+    display: block;
+    top: 10%;
+}
+
+#gameboard {
+    border: 2px black solid;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    height: 100%;
+}
+
+.space {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    border: 1px black solid;
+    width: calc(33.33% - 2px);
+    height: calc(33.33% - 2px);
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    font-weight: bold;
+}
