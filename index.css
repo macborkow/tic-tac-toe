@@ -1,4 +1,6 @@
 #root {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5vw;
     width: 30vw;
     height: 30vw;
     left: 35%;
@@ -18,13 +20,31 @@
 }
 
 .space {
-    font-family: 'Courier New', Courier, monospace;
     display: flex;
     border: 1px black solid;
     width: calc(33.33% - 2px);
     height: calc(33.33% - 2px);
     justify-content: center;
     align-items: center;
-    font-size: 5vw;
     font-weight: bold;
+}
+
+#message {
+    text-align: center;
+}
+
+#reset {
+    position: relative;
+    top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+#button, #button:hover {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5vw;
+    background: none;
+    box-shadow: 0px 0px 0px transparent;
+    border: 0px solid transparent;
+    text-shadow: 0px 0px 0px transparent;
 }
